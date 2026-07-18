@@ -1,4 +1,4 @@
-name: Deploy Front to GitHub Pages
+﻿name: Deploy Front to GitHub Pages
 
 on:
   push:
