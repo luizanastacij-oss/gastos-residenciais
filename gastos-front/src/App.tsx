@@ -34,7 +34,7 @@ const maskCurrency = (value: string) => {
   return formatarBRL(Number(digits) / 100);
 };
 
-const API_URL = 'http://localhost:5167/api'; // ajuste a porta conforme o "dotnet run" exibir
+const API_URL = import.meta.env.VITE_API_URL || 'https://gastos-residenciais-llgm.onrender.com/api'; // ajuste a porta conforme o "dotnet run" exibir
 
 const COLORS = ['#4f46e5', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#0ea5e9'];
 
