@@ -25,7 +25,7 @@ jobs:
 
       - name: Build
         working-directory: gastos-front
-        run: npm run build
+        run: npm run build:ghpages
 
       - uses: actions/upload-pages-artifact@v3
         with:

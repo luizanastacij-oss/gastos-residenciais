@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
-  base: '/gastos-residenciais/',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'ghpages' ? '/gastos-residenciais/' : '/',
   plugins: [react()],
-})
+}))
