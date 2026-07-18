@@ -1,0 +1,11 @@
+# Arquivos de compilação do C# (.NET)
+bin/
+obj/
+
+# Arquivos de Banco de Dados Local do SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Variáveis de ambiente
+.env
