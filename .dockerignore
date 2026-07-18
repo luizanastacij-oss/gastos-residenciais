@@ -1,0 +1,6 @@
+bin/
+obj/
+gastos-front/
+gastos.db
+.git/
+.github/
